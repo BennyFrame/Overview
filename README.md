@@ -5,11 +5,22 @@
 
 ### Variables
 
-### Looping
+### Arrays
+
+### Loops
 
 ### Conditionals
 
 ### Scoping
+
+What is the output of this code?
+```cpp
+double a = 5;
+for (int i = 0; i < 10; i++) {
+   double a = 10+i;
+}
+cout << a << endl;
+```
 
 ### Functions
 
