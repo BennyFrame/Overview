@@ -31,7 +31,7 @@ cout << a << endl;
 # Class 2 - Monday, January 30
 
 + File reading/writing
-+ Equationssolvers, Cholesky decomposition
++ Equation solvers, Cholesky decomposition
 
 
 ### GitHub Classroom
