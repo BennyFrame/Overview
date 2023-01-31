@@ -72,7 +72,7 @@ if (infile.fail()) {
 ```cpp
 for (int r = 0; r < N; r++)
    for (int c = 0; c < N; c++) {
-      infile >> A[N*c + r]
+      infile >> A[N*c + r];
    }
 }
 ```
@@ -99,11 +99,11 @@ int main (int argc, const char **argv) {
    // argv[2] inputs filename
    if (argc < 3) {
       cerr << "insufficient inputs: requires 2 args" << endl;
-      return -1
+      return -1;
    }
    
-   N = atoi(argv[1])
-   string infilename = argv[2]
+   N = atoi(argv[1]);
+   string infilename = argv[2];
    
    //
    //
