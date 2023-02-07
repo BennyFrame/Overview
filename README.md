@@ -184,3 +184,18 @@ double d{};             // d becomes 0.0
 \includegraphics[width=0.3\textwidth]{Figs/Capture.PNG}
 \caption{\label{fig:frog}iterative (purple) v. direct (red) solvers.}
 \end{figure}
+
+# Class 3 - Monday, February 6
+
++ Basic command line parser
++ BennyFrame 1.0 assignment
++ BennyFrame 1.0 input and output file formats
++ Read input file
++ Store data in 1D arrays
++ Multiple load cases
+
+## Questions
+
++ Null pointers, why initialize to null (0)
++ Garbage collections, memory leaks, dangling pointers
++ How to deal with mixed input types, e.g., strings and numbers
