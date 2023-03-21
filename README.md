@@ -7,6 +7,16 @@
 
 ### Arrays
 
+Static allocation when array size is known at compile time
+
+```cpp
+const int N = 5;
+
+double x[N];
+for (int i = 0; i < N; i++)
+   x[i] = i;
+```
+
 ### Loops
 
 ### Conditionals
@@ -52,7 +62,7 @@ cout << a << endl;
 
 Dynamically allocated matrix storage and read from file: 
 
-+ Dynamically allocate storage during run time
++ Dynamically allocate storage during run time (do not know `N` at compile time)
 ```cpp
 double *A = new double[N*N];
 ```
